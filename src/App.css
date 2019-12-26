@@ -1,0 +1,68 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+input::placeholder{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  color:black;
+}
+input{
+  border: 1px solid black;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+#button{
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+
+}
+
+
+.todos{
+  display:grid;
+  margin:1%;
+  grid-gap:1%;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
+}
+
+#headers{
+  display: grid;
+  margin:1%;
+  grid-gap:1%;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
+}
+
+
+.nav{
+  margin:1%;
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
+  grid-gap:1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.buttons{
+  height: 4.5vh;
+}
+
+#button{
+  display: grid;
+text-align: center;
+align-content: center;
+
+width:10vw;
+padding:1px;
+border: 1px solid black;
+height: 4.5vh;
+}
+
+
+#chart {
+  max-width: 300px;
+  margin: 50% auto;
+}
